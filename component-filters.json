@@ -15,7 +15,14 @@
       "hero",
       "cards",
       "columns",
+      "video",
       "fragment"
+    ]
+  },
+  {
+    "id": "video",
+    "components": [
+      "video"
     ]
   },
   {

@@ -161,6 +161,25 @@
     ]
   },
   {
+    "id": "video",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "videoUrl",
+        "label": "Video URL (MP4 or DAM reference)",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "videoAlt",
+        "label": "Alt Text",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {

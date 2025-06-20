@@ -1,0 +1,48 @@
+{
+  "definitions": [
+    {
+      "title": "Video",
+      "id": "video",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Video",
+              "model": "video"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "video",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "videoUrl",
+          "label": "Video URL (MP4 or DAM reference)",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "videoAlt",
+          "label": "Alt Text",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "video",
+      "components": [
+        "video"
+      ]
+    }
+  ]
+}
